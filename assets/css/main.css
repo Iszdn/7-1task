@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@100&family=Great+Vibes&family=Inter:wght@300&family=Jost:wght@100;200;300;400;500;600&family=Open+Sans:wght@600&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  font: inherit;
+}
+
+* {
+  font-family: "Jost", sans-serif;
+}
+
+.benzer, .search, .bath, .bed, select {
+  width: 70px;
+  height: 35px;
+  border: 1px solid #BECCD6;
+  border-radius: 4px;
+  color: #5E5E5E;
+  padding: 6px 19px;
+  font-size: 13px;
+}
+
+.signin {
+  width: 90px;
+  height: 35px;
+  padding: 3px 20px;
+  background: #00AEFF;
+  border: 1px solid #00AEFF;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.signin:hover {
+  background-color: transparent;
+  color: #00AEFF;
+  border: 1px solid #00AEFF;
+}
+
+.enter {
+  height: 35px;
+  width: 400px;
+  color: #5E5E5E;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 9px 18px 9px 48px;
+  position: relative;
+  border: 1px solid #BECCD6;
+  border-radius: 4px;
+}
+
+select {
+  padding: 6px 10px;
+}
+
+.search {
+  background-color: #004274;
+  color: white;
+}
+
+.btn2 {
+  background: #00AEFF;
+  border: 1px solid #00AEFF;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  margin-top: 20px;
+}
+
+.header1 {
+  display: flex;
+  color: white;
+  background-color: #004274;
+  display: flex;
+  justify-content: space-around;
+}
+.header1 .leftnav {
+  display: flex;
+  gap: 15px;
+}
+.header1 .leftnav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.header1 .leftnav ul li:hover {
+  color: #00AEFF;
+}
+@media screen and (max-width: 950px) {
+  .header1 .leftnav ul ul li {
+    display: none;
+  }
+}
+.header1 .leftnav ul .menu {
+  position: relative;
+  cursor: pointer;
+  z-index: 5;
+}
+.header1 .leftnav ul .submenu {
+  position: absolute;
+  display: none;
+  font-size: 14px;
+  border-radius: 2px;
+  width: 140px;
+  left: 0px;
+  top: 20px;
+  z-index: 1;
+  background-color: #fff;
+  padding: 10px 13px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.header1 .leftnav ul .menu:hover .submenu {
+  display: block;
+}
+.header1 .leftnav ul .submenu a {
+  color: #5E5E5E;
+  text-decoration: none;
+  display: block;
+  font-weight: 600;
+  padding-bottom: 13px;
+  transition: all 0.2s ease-in;
+}
+.header1 .leftnav ul .submenu a:hover {
+  color: #00AEFF;
+}
+.header1 .rightnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.header1 .rightnav span {
+  border-bottom: 1px dotted;
+}
+
+.header2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+#light-house {
+  background-image: url("https://preview.colorlib.com/theme/konato/assets/img/hero/h1_hero1.jpg.webp");
+  height: 100vh;
+  background-repeat: no-repeat;
+  opacity: 1;
+  color: white;
+}
+#light-house .container1 {
+  text-align: left;
+  padding: 100px 500px;
+}
+#light-house .container1 span {
+  font-size: 18px;
+  margin: 0px 0px 3px;
+}
+#light-house .container1 h1 {
+  font-size: 60px;
+  margin: 0px 0px 9px;
+}
+#light-house .container1 p {
+  font-size: 20px;
+  margin: 0px 0px 20px;
+  width: 500px;
+}
+#light-house .container1 .span-price {
+  font-size: 40px;
+  margin: 0px 0px 40px;
+}
+
+#display {
+  height: 70vh;
+  width: 100%;
+}
+#display .container2 {
+  text-align: center;
+}
+#display .container2 h2 {
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+#display .container2 p {
+  color: #656565;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 0 50px;
+}
+#display .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#display .cards .div1 {
+  width: 300px;
+  border: 1px solid #a7a7a7;
+}
+#display .cards .div1 img {
+  width: 100%;
+}
+#display .cards .div1 .yazi {
+  padding: 10px;
+}
+#display .cards .div1 span {
+  font-size: 16px;
+  color: #00AEFF;
+  margin: 0px 0px 4px;
+}
+#display .cards .div1 a {
+  font-size: 20px;
+  margin: 0px 0px 17px;
+  text-decoration: none;
+  color: black;
+}
+#display .cards .div1 p {
+  color: #5E5E5E;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+#help {
+  padding: 55px 0px 65px;
+  background-image: url("https://preview.colorlib.com/theme/konato/assets/img/gallery/section-bg1.jpg.webp");
+  height: 56vh;
+}
+#help h2 {
+  color: white;
+  text-align: center;
+  font-size: 38px;
+  padding-bottom: 30px;
+}
+#help .sell {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#help .sell img {
+  margin-left: 100px;
+}
+#help .sell .sellhome {
+  text-align: center;
+  width: 300px;
+  height: 250px;
+  background: #00A0EB;
+  box-shadow: 0px 10px 16px rgba(84, 0, 0, 0.06);
+  padding: 50px 30px 39px 30px;
+}
+#help .sell .sellhome .sekil {
+  width: 50px;
+  height: 50px;
+}
+#help .sell .sellhome h3 {
+  padding: 10px;
+}
+
+#properties {
+  padding: 100px 0px 90px;
+  height: 80vh;
+}
+#properties h2 {
+  padding: 0px 0px 32px;
+  text-align: center;
+  font-size: 38px;
+}
+#properties .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#properties .cards .div1 {
+  width: 300px;
+  border: 1px solid #a7a7a7;
+}
+#properties .cards .div1 img {
+  width: 100%;
+}
+#properties .cards .div1 .yazi {
+  padding: 10px;
+}
+#properties .cards .div1 span {
+  font-size: 16px;
+  color: #00AEFF;
+  margin: 0px 0px 4px;
+}
+#properties .cards .div1 a {
+  font-size: 20px;
+  margin: 0px 0px 17px;
+  text-decoration: none;
+  color: black;
+}
+#properties .cards .div1 p {
+  color: #5E5E5E;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+#explore {
+  height: 60vh;
+  background-color: #F2F4F8;
+}
+#explore .container5 {
+  padding: 100px;
+}
+#explore .container5 h2 {
+  font-size: 38px;
+  line-height: 1;
+  padding-bottom: 10px;
+}/*# sourceMappingURL=main.css.map */

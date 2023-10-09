@@ -1,0 +1,85 @@
+.header1{
+    display: flex;
+    color: white;
+    background-color: #004274;
+    display: flex;
+    justify-content: space-around;
+.leftnav{
+    display: flex;
+    gap: 15px;
+    ul {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+li:hover{
+        color: #00AEFF;
+    
+    }
+@media screen and (max-width:950px) {
+    ul li{
+        display: none;
+    }
+}
+
+
+// submenu start
+.menu{
+    position: relative;
+    cursor: pointer;
+    z-index: 5;
+}
+ .submenu{
+    
+    position: absolute;
+    display: none;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 140px;
+ left: 0px;
+    top: 20px ;
+    z-index: 1;
+    background-color: #fff;
+    padding: 10px 13px 5px ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.menu:hover .submenu{
+    display: block;
+    
+}
+
+.submenu a{
+    color: #5E5E5E;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    padding-bottom: 13px;
+    transition: all .2s ease-in ;
+}
+
+.submenu a:hover{
+    color: #00AEFF;
+
+}
+// .submenu end
+    }
+}
+
+.rightnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    span{
+        border-bottom: 1px dotted ;
+    }
+}
+}
+// header1 end
+.header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}

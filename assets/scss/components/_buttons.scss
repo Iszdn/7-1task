@@ -1,0 +1,63 @@
+.benzer{
+    width: 70px;
+    height: 35px;
+    border: 1px solid #BECCD6;
+    border-radius: 4px;
+    color: #5E5E5E;
+    padding: 6px 19px;
+    font-size: 13px;
+}
+.signin{
+    width: 90px;
+    height: 35px;
+    padding: 3px 20px;
+    background: #00AEFF;
+    border: 1px solid #00AEFF;
+    font-size: 16px;
+    border-radius: 8px;
+   
+}
+ .signin:hover{
+        background-color: transparent;
+        color: #00AEFF;
+        border: 1px solid #00AEFF;
+    }
+.enter{
+    height: 35px;
+    width: 400px;
+    color: #5E5E5E;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 9px 18px 9px 48px;
+    position: relative;
+    border: 1px solid #BECCD6;
+    border-radius: 4px;
+}
+select{
+    @extend .benzer;
+    padding: 6px 10px;
+    
+}
+.bed{
+    @extend .benzer;
+    
+}
+.bath{
+    @extend .benzer;
+}
+.search{
+    @extend .benzer;
+    background-color: #004274;
+    color: white;
+}
+.btn2{
+    background: #00AEFF;
+    border: 1px solid #00AEFF;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    margin-top:  20px;
+}
